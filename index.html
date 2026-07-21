@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GSG | Tráfego Orgânico Qualificado — SEO, GEO e Growth Marketing</title>
+<meta name="description" content="A GSG ajuda pequenas e médias empresas a crescerem com SEO, GEO e Growth Marketing, aumentando visibilidade, leads qualificados e tráfego orgânico.">
+<meta property="og:title" content="GSG | Tráfego Orgânico Qualificado — SEO, GEO e Growth Marketing">
+<meta property="og:description" content="A GSG ajuda pequenas e médias empresas a crescerem com SEO, GEO e Growth Marketing, aumentando visibilidade, leads qualificados e tráfego orgânico.">
+<meta property="og:type" content="website">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
+        popover: { DEFAULT: 'var(--popover)', foreground: 'var(--popover-foreground)' },
+        primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
+        secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
+        muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
+        accent: { DEFAULT: 'var(--accent)', foreground: 'var(--accent-foreground)' },
+        destructive: { DEFAULT: 'var(--destructive)', foreground: 'var(--destructive-foreground)' },
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)',
+      },
+    },
+  },
+}
+</script>
+<link rel="icon" href="favicon.ico">
+<style>
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.99 0.005 95);
+  --foreground: oklch(0.18 0.03 200);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.03 200);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.03 200);
+  --primary: oklch(0.42 0.08 200);
+  --primary-foreground: oklch(0.99 0.005 95);
+  --secondary: oklch(0.95 0.02 90);
+  --secondary-foreground: oklch(0.25 0.05 200);
+  --muted: oklch(0.96 0.01 95);
+  --muted-foreground: oklch(0.5 0.03 210);
+  --accent: oklch(0.75 0.16 65);
+  --accent-foreground: oklch(0.18 0.03 200);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.9 0.015 200);
+  --input: oklch(0.9 0.015 200);
+  --ring: oklch(0.42 0.08 200);
+}
+* { border-color: var(--border); }
+body { background-color: var(--background); color: var(--foreground); }
+</style>
+</head>
+<body class="bg-background text-foreground">
+<div class="flex min-h-screen flex-col bg-background text-foreground">
+
+  <header class="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <a href="index.html" class="text-lg font-semibold tracking-tight text-foreground">
+        GSG<span class="text-accent">.</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
+        <a href="index.html" class="transition-colors hover:text-foreground text-foreground">Home</a>
+        <a href="servicos.html" class="transition-colors hover:text-foreground">Serviços</a>
+        <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+        <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+        <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+      </nav>
+      <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105">Solicitar diagnóstico gratuito</a>
+      <button type="button" onclick="document.getElementById('mnav').classList.toggle('hidden')" class="md:hidden inline-flex items-center justify-center rounded-md border border-border px-3 py-2 text-sm">☰</button>
+    </div>
+    <nav id="mnav" class="hidden md:hidden flex flex-col gap-1 border-t border-border/60 bg-background px-6 py-4 text-sm font-medium text-muted-foreground">
+      <a href="index.html" class="transition-colors hover:text-foreground text-foreground">Home</a>
+      <a href="servicos.html" class="transition-colors hover:text-foreground">Serviços</a>
+      <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+      <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+      <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+      <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground">Solicitar diagnóstico gratuito</a>
+    </nav>
+  </header>
+
+<main class="flex-1">
+
+<section class="mx-auto max-w-6xl px-6 py-24 sm:py-32">
+  <h1 class="mt-4 max-w-4xl text-5xl font-semibold tracking-tight text-foreground sm:text-7xl">
+    GSG — Tráfego Orgânico Qualificado
+  </h1>
+  <p class="mt-6 max-w-2xl text-lg text-muted-foreground">
+    Ajudamos pequenas e médias empresas a crescerem por meio de estratégias de SEO, GEO e Growth Marketing, aumentando a visibilidade, atraindo leads qualificados e melhorando o tráfego orgânico.
+  </p>
+  <div class="mt-10 flex flex-wrap gap-3">
+    <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105">
+      Solicitar diagnóstico gratuito
+    </a>
+    <a href="servicos.html" class="inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary">
+      Conheça nossos serviços
+    </a>
+  </div>
+</section>
+
+<section class="border-t border-border/60 bg-secondary/40">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">O que fazemos?</p>
+    <h2 class="mt-3 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">Estratégias completas de crescimento orgânico</h2>
+    <p class="mt-6 max-w-2xl text-lg text-muted-foreground">Ajudamos empresas a conquistarem melhores resultados na internet por meio de estratégias de SEO, GEO, Growth Marketing e otimização de conversão. Trabalhamos para aumentar sua visibilidade, atrair leads qualificados e melhorar a experiência do usuário.</p>
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+        <a href="servicos.html" class="group flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+          <h3 class="text-xl font-semibold tracking-tight">Consultoria SEO</h3>
+          <p class="mt-3 text-sm text-muted-foreground">SEO técnico, planejamento estratégico e conteúdo para crescer no Google e em buscas por IA (GEO).</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-foreground">Saiba mais <span class="transition-transform group-hover:translate-x-1">&rarr;</span></span>
+        </a>
+        <a href="servicos.html" class="group flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+          <h3 class="text-xl font-semibold tracking-tight">Inbound SEO</h3>
+          <p class="mt-3 text-sm text-muted-foreground">Conteúdo que atrai, blog otimizado e captação de leads em cada etapa do funil.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-foreground">Saiba mais <span class="transition-transform group-hover:translate-x-1">&rarr;</span></span>
+        </a>
+        <a href="servicos.html" class="group flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+          <h3 class="text-xl font-semibold tracking-tight">CRO</h3>
+          <p class="mt-3 text-sm text-muted-foreground">Testes A/B, análise de dados e melhorias contínuas para converter mais visitantes em clientes.</p>
+          <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-foreground">Saiba mais <span class="transition-transform group-hover:translate-x-1">&rarr;</span></span>
+        </a></div>
+    <a href="servicos.html" class="mt-10 inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary">Ver todos os serviços</a>
+  </div>
+</section>
+
+<section class="border-t border-border/60">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Por que escolher a GSG?</p>
+    <h2 class="mt-3 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">Uma estratégia integrada de crescimento</h2>
+    <p class="mt-6 max-w-2xl text-lg text-muted-foreground">Trabalhamos com uma estratégia integrada de crescimento orgânico, considerando mecanismos de busca, plataformas de inteligência artificial, experiência do usuário e conversão.</p>
+    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">Mais visibilidade</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Apareça para pessoas que realmente procuram pelos seus serviços.</p>
+              </div>
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">Leads mais qualificados</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Atraia visitantes com maior intenção de compra.</p>
+              </div>
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">SEO para IA (GEO)</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Otimize seu conteúdo para mecanismos tradicionais e plataformas baseadas em inteligência artificial.</p>
+              </div>
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">Sites mais rápidos</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Melhore desempenho, experiência do usuário e Core Web Vitals.</p>
+              </div>
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">Estratégias baseadas em dados</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Decisões fundamentadas em métricas, comportamento e testes.</p>
+              </div>
+              <div class="rounded-2xl border border-border bg-card p-7">
+                <h3 class="text-lg font-semibold tracking-tight text-foreground">Crescimento sustentável</h3>
+                <p class="mt-2 text-sm text-muted-foreground">Reduza a dependência de mídia paga e fortaleça seu posicionamento orgânico.</p>
+              </div></div>
+  </div>
+</section>
+
+<section class="border-t border-border/60 bg-secondary/40">
+  <div class="mx-auto max-w-4xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Como funciona?</p>
+    <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Um processo simples e transparente</h2>
+    <div class="mt-4">
+              <div class="flex items-start gap-6 border-t border-border/60 py-8 first:border-t-0">
+                <span class="text-3xl font-semibold tracking-tight text-accent">01</span>
+                <div>
+                  <h3 class="text-xl font-semibold tracking-tight text-foreground">Diagnóstico</h3>
+                  <p class="mt-2 max-w-xl text-muted-foreground">Analisamos seu site, identificando oportunidades técnicas, estratégicas e de conteúdo.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-6 border-t border-border/60 py-8 first:border-t-0">
+                <span class="text-3xl font-semibold tracking-tight text-accent">02</span>
+                <div>
+                  <h3 class="text-xl font-semibold tracking-tight text-foreground">Planejamento</h3>
+                  <p class="mt-2 max-w-xl text-muted-foreground">Desenvolvemos uma estratégia personalizada para o seu negócio.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-6 border-t border-border/60 py-8 first:border-t-0">
+                <span class="text-3xl font-semibold tracking-tight text-accent">03</span>
+                <div>
+                  <h3 class="text-xl font-semibold tracking-tight text-foreground">Implementação</h3>
+                  <p class="mt-2 max-w-xl text-muted-foreground">Aplicamos melhorias em SEO, GEO, conteúdo, performance e conversão.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-6 border-t border-border/60 py-8 first:border-t-0">
+                <span class="text-3xl font-semibold tracking-tight text-accent">04</span>
+                <div>
+                  <h3 class="text-xl font-semibold tracking-tight text-foreground">Acompanhamento</h3>
+                  <p class="mt-2 max-w-xl text-muted-foreground">Monitoramos resultados continuamente e ajustamos as estratégias conforme necessário.</p>
+                </div>
+              </div></div>
+  </div>
+</section>
+
+<section class="border-t border-border/60">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Cases</p>
+    <h2 class="mt-3 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">Resultados reais</h2>
+    <p class="mt-6 max-w-2xl text-lg text-muted-foreground">Já ajudamos empresas a aumentarem seu tráfego orgânico, melhorarem a conversão e conquistarem resultados expressivos nos mecanismos de busca.</p>
+    <a href="portfolio-facilita-pocos.html" class="group mt-10 grid gap-8 overflow-hidden rounded-3xl border border-border bg-card md:grid-cols-2">
+      <div class="aspect-[16/10] overflow-hidden md:aspect-auto">
+        <img src="assets/facilita-pocos-cover.jpg" alt="Capa do case Facilita Poços" width="1600" height="900" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+      </div>
+      <div class="flex flex-col justify-center gap-4 p-8 sm:p-12">
+        <span class="text-xs font-medium uppercase tracking-[0.14em] text-accent">SEO Técnico, Conteúdo e CRO</span>
+        <h3 class="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">Facilita Poços</h3>
+        <p class="text-base text-muted-foreground">De 1 para 8 páginas indexadas e 10x mais leads em 15 dias com uma estratégia integrada de SEO técnico, conteúdo e UX Writing.</p>
+        <span class="mt-2 text-sm font-medium text-primary">Ler case →</span>
+      </div>
+    </a>
+    <a href="portfolio.html" class="mt-10 inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary">Ver mais cases de sucesso</a>
+  </div>
+</section>
+
+<!--
+  BLOG — POSTS AUTOMÁTICOS (nota técnica)
+  Este site é HTML estático (sem backend/CMS), então não é possível puxar os
+  "3 posts mais recentes" automaticamente de um banco de dados em tempo real.
+  A lista de posts abaixo foi deixada pronta em gen_index.py (variável
+  "latest_posts"): sempre que publicar um novo artigo, adicione-o no topo da
+  lista e remova o mais antigo, mantendo sempre os 3 mais recentes.
+  Se no futuro isso precisar ser 100% automático, será necessário um CMS
+  (ex.: um blog headless) ou um pequeno backend para gerar essa lista.
+-->
+<section class="border-t border-border/60 bg-secondary/40">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Blog</p>
+    <h2 class="mt-3 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">Conteúdo para quem quer crescer organicamente</h2>
+    <p class="mt-6 max-w-2xl text-lg text-muted-foreground">Acompanhe tendências, novidades e estratégias sobre SEO, GEO, Growth Marketing, inteligência artificial, CRO e marketing digital.</p>
+    <div class="mt-12 grid gap-6 md:grid-cols-3">
+              <a href="blog.html" class="flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+                <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">SEO</p>
+                <h3 class="mt-3 text-lg font-semibold tracking-tight">O que é GEO (Generative Engine Optimization) e por que sua marca precisa disso</h3>
+                <p class="mt-3 text-sm text-muted-foreground">Entenda como preparar seu site para aparecer nas respostas de ferramentas de IA como ChatGPT, Gemini e AI Overviews.</p>
+              </a>
+              <a href="blog.html" class="flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+                <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Inbound</p>
+                <h3 class="mt-3 text-lg font-semibold tracking-tight">Como estruturar um funil de conteúdo que gera leads todos os meses</h3>
+                <p class="mt-3 text-sm text-muted-foreground">Da atração à nutrição: um passo a passo para transformar tráfego orgânico em oportunidades reais de negócio.</p>
+              </a>
+              <a href="blog.html" class="flex flex-col rounded-3xl border border-border bg-card p-8 transition-colors hover:border-accent/60">
+                <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">CRO</p>
+                <h3 class="mt-3 text-lg font-semibold tracking-tight">5 ajustes de CRO que aumentam conversões sem aumentar o investimento em mídia</h3>
+                <p class="mt-3 text-sm text-muted-foreground">Pequenos ajustes em CTAs, formulários e microcopys podem dobrar a taxa de conversão do seu site.</p>
+              </a></div>
+    <a href="blog.html" class="mt-10 inline-flex items-center justify-center rounded-full border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary">Descubra outras novidades</a>
+  </div>
+</section>
+
+<section class="border-t border-border/60">
+  <div class="mx-auto max-w-4xl px-6 py-20 sm:py-24">
+    <p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Perguntas Frequentes</p>
+    <h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Ainda com dúvidas?</h2>
+    <div class="mt-8">
+              <details class="group border-b border-border/60 py-6 first:pt-0 last:border-b-0">
+                <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-medium text-foreground">
+                  Vocês trabalham apenas com SEO?
+                  <span class="ml-4 shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-3 max-w-2xl text-muted-foreground">Não. Também atuamos com GEO, CRO, Growth Marketing e otimização da experiência do usuário.</p>
+              </details>
+              <details class="group border-b border-border/60 py-6 first:pt-0 last:border-b-0">
+                <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-medium text-foreground">
+                  Quanto tempo demora para aparecerem resultados?
+                  <span class="ml-4 shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-3 max-w-2xl text-muted-foreground">Os resultados variam conforme o projeto, mas SEO e GEO são estratégias de médio e longo prazo que geram crescimento sustentável.</p>
+              </details>
+              <details class="group border-b border-border/60 py-6 first:pt-0 last:border-b-0">
+                <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-medium text-foreground">
+                  O diagnóstico é realmente gratuito?
+                  <span class="ml-4 shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-3 max-w-2xl text-muted-foreground">Sim. Realizamos uma análise inicial do seu site sem compromisso.</p>
+              </details>
+              <details class="group border-b border-border/60 py-6 first:pt-0 last:border-b-0">
+                <summary class="flex cursor-pointer list-none items-center justify-between text-lg font-medium text-foreground">
+                  Vocês atendem empresas de qualquer segmento?
+                  <span class="ml-4 shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p class="mt-3 max-w-2xl text-muted-foreground">Sim. Trabalhamos com pequenas e médias empresas de diversos mercados.</p>
+              </details></div>
+  </div>
+</section>
+
+<section class="border-t border-border/60 bg-primary text-primary-foreground">
+  <div class="mx-auto max-w-4xl px-6 py-24 text-center">
+    <h2 class="text-4xl font-semibold tracking-tight sm:text-5xl">Descubra quanto potencial seu site ainda pode alcançar.</h2>
+    <p class="mx-auto mt-6 max-w-xl text-primary-foreground/80">Receba gratuitamente uma análise inicial do seu site e descubra oportunidades para aumentar sua presença nos mecanismos de busca, melhorar sua taxa de conversão e atrair visitantes mais qualificados.</p>
+    <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="mt-10 inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-semibold text-accent-foreground transition-transform hover:scale-105">Solicitar diagnóstico gratuito</a>
+  </div>
+</section>
+
+</main>
+
+  <footer class="border-t border-border/60 bg-background">
+    <div class="mx-auto max-w-6xl px-6 py-14">
+      <div class="grid gap-10 sm:grid-cols-3">
+        <div>
+          <p class="text-lg font-semibold tracking-tight text-foreground">GSG<span class="text-accent">.</span></p>
+          <p class="mt-2 text-sm text-muted-foreground">Tráfego Orgânico Qualificado</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Menu</p>
+          <nav class="mt-4 flex flex-col gap-2 text-sm text-muted-foreground">
+            <a href="index.html" class="transition-colors hover:text-foreground">Home</a>
+            <a href="servicos.html" class="transition-colors hover:text-foreground">Serviços</a>
+            <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+            <a href="blog.html" class="transition-colors hover:text-foreground">Blog</a>
+            <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+            <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+          </nav>
+        </div>
+        <div>
+          <p class="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Contato</p>
+          <nav class="mt-4 flex flex-col gap-2 text-sm text-muted-foreground">
+            <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-foreground">WhatsApp</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-foreground">LinkedIn</a>
+            <a href="mailto:diegomachadodecarvalho@gmail.com" class="transition-colors hover:text-foreground">diegomachadodecarvalho@gmail.com</a>
+          </nav>
+        </div>
+      </div>
+      <div class="mt-12 border-t border-border/60 pt-6 text-sm text-muted-foreground">
+        <p>© 2026 GSG. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

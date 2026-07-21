@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultoria SEO | Diego Machado, Redator Estrategista</title>
+<meta name="description" content="Consultoria SEO para crescer no Google e nas buscas por IA (GEO). SEO técnico, planejamento estratégico e conteúdo otimizado para gerar tráfego qualificado.">
+<meta property="og:title" content="Consultoria SEO | Diego Machado, Redator Estrategista">
+<meta property="og:description" content="Consultoria SEO para crescer no Google e nas buscas por IA (GEO). SEO técnico, planejamento estratégico e conteúdo otimizado para gerar tráfego qualificado.">
+<meta property="og:type" content="website">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
+        popover: { DEFAULT: 'var(--popover)', foreground: 'var(--popover-foreground)' },
+        primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
+        secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
+        muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
+        accent: { DEFAULT: 'var(--accent)', foreground: 'var(--accent-foreground)' },
+        destructive: { DEFAULT: 'var(--destructive)', foreground: 'var(--destructive-foreground)' },
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)',
+      },
+    },
+  },
+}
+</script>
+<link rel="icon" href="favicon.ico">
+<style>
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.99 0.005 95);
+  --foreground: oklch(0.18 0.03 200);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.03 200);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.03 200);
+  --primary: oklch(0.42 0.08 200);
+  --primary-foreground: oklch(0.99 0.005 95);
+  --secondary: oklch(0.95 0.02 90);
+  --secondary-foreground: oklch(0.25 0.05 200);
+  --muted: oklch(0.96 0.01 95);
+  --muted-foreground: oklch(0.5 0.03 210);
+  --accent: oklch(0.75 0.16 65);
+  --accent-foreground: oklch(0.18 0.03 200);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.9 0.015 200);
+  --input: oklch(0.9 0.015 200);
+  --ring: oklch(0.42 0.08 200);
+}
+* { border-color: var(--border); }
+body { background-color: var(--background); color: var(--foreground); }
+</style>
+</head>
+<body class="bg-background text-foreground">
+<div class="flex min-h-screen flex-col bg-background text-foreground">
+
+  <header class="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
+    <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <a href="index.html" class="text-lg font-semibold tracking-tight text-foreground">
+        GSG<span class="text-accent">.</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
+        <a href="index.html" class="transition-colors hover:text-foreground">Home</a>
+        <a href="servicos.html" class="transition-colors hover:text-foreground text-foreground">Serviços</a>
+        <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+        <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+        <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+      </nav>
+      <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105">Solicitar diagnóstico gratuito</a>
+      <button type="button" onclick="document.getElementById('mnav').classList.toggle('hidden')" class="md:hidden inline-flex items-center justify-center rounded-md border border-border px-3 py-2 text-sm">☰</button>
+    </div>
+    <nav id="mnav" class="hidden md:hidden flex flex-col gap-1 border-t border-border/60 bg-background px-6 py-4 text-sm font-medium text-muted-foreground">
+      <a href="index.html" class="transition-colors hover:text-foreground">Home</a>
+      <a href="servicos.html" class="transition-colors hover:text-foreground text-foreground">Serviços</a>
+      <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+      <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+      <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+      <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground">Solicitar diagnóstico gratuito</a>
+    </nav>
+  </header>
+
+<main class="flex-1">
+
+<section class="mx-auto max-w-6xl px-6 py-24 sm:py-32">
+  <p class="text-sm font-medium uppercase tracking-[0.18em] text-accent">Consultoria SEO</p>
+  <h1 class="mt-4 max-w-4xl text-5xl font-semibold tracking-tight text-foreground sm:text-6xl">Consultoria SEO para crescer no Google e nas buscas por IA (GEO)</h1>
+  <p class="mt-6 max-w-2xl text-lg text-muted-foreground">Seu site não está gerando os resultados esperados? Ajudamos sua empresa a aumentar a visibilidade nos mecanismos de busca tradicionais e nas plataformas de inteligência artificial, atraindo tráfego qualificado.</p>
+  <div class="mt-10"><a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105">Solicitar diagnóstico SEO gratuito</a></div>
+</section>
+<section class="border-t border-border/60 bg-secondary/40">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <div class="grid gap-12 md:grid-cols-2">
+      <div><p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">O que fazemos</p><h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">SEO técnico, estratégia e conteúdo</h2></div>
+      <div class="flex flex-col justify-center"><p class="text-lg text-muted-foreground">Nossa consultoria combina SEO técnico, estratégia de conteúdo e otimização de conversão para posicionar sua empresa onde as pessoas realmente pesquisam: Google, Bing e ferramentas de IA (GEO, Generative Engine Optimization).</p></div>
+    </div>
+  </div>
+</section>
+<section class="border-t border-border/60">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24"><div class="grid gap-6 md:grid-cols-3">
+                <article class="flex flex-col rounded-3xl border border-border bg-card p-8">
+                  <h3 class="text-2xl font-semibold tracking-tight">SEO Técnico</h3>
+                  <p class="mt-3 text-muted-foreground">Analisamos a estrutura do seu site para identificar falhas que podem impedir um bom posicionamento.</p>
+                  <ul class="mt-6 flex flex-col gap-2">
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>HTML e estrutura das páginas</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Velocidade de carregamento</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Indexação no Google</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Links internos</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Tags, títulos e meta descriptions</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Compatibilidade com dispositivos móveis</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Estrutura para mecanismos de IA entenderem seu conteúdo</span>
+                    </li></ul>
+                  <p class="mt-6 border-t border-border/60 pt-4 text-sm font-medium text-foreground">Um site mais rápido, organizado e fácil de ser interpretado tanto pelo Google quanto por modelos de IA.</p>
+                </article>
+                <article class="flex flex-col rounded-3xl border border-border bg-card p-8">
+                  <h3 class="text-2xl font-semibold tracking-tight">Planejamento Estratégico</h3>
+                  <p class="mt-3 text-muted-foreground">Estudamos seu mercado, concorrentes e público-alvo para criar uma estratégia de crescimento sustentável.</p>
+                  <ul class="mt-6 flex flex-col gap-2">
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Análise de concorrência</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Pesquisa de palavras-chave</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Mapeamento de oportunidades</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Identificação de gargalos do site</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Definição de metas e prioridades</span>
+                    </li></ul>
+                  <p class="mt-6 border-t border-border/60 pt-4 text-sm font-medium text-foreground">Você recebe um plano de ação claro, com foco em tráfego qualificado e geração de resultados.</p>
+                </article>
+                <article class="flex flex-col rounded-3xl border border-border bg-card p-8">
+                  <h3 class="text-2xl font-semibold tracking-tight">Conteúdo Estratégico</h3>
+                  <p class="mt-3 text-muted-foreground">Aplicamos SEO On-Page em todas as páginas do seu site, alinhando conteúdo e objetivo de negócio.</p>
+                  <ul class="mt-6 flex flex-col gap-2">
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Microcopys de conversão</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Estrutura de páginas de serviço</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Otimização de títulos e descrições</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Conteúdo para topo, meio e fundo de funil</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm text-muted-foreground">
+                      <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"></span>
+                      <span>Textos preparados para aparecer em respostas de IA e AI Overviews</span>
+                    </li></ul>
+                  <p class="mt-6 border-t border-border/60 pt-4 text-sm font-medium text-foreground">Se o objetivo é vender, o conteúdo será construído para conduzir o visitante até a conversão.</p>
+                </article></div></div>
+</section>
+<section class="border-t border-border/60 bg-secondary/40">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-24">
+    <div class="grid gap-12 md:grid-cols-[1fr_1.2fr]">
+      <div><p class="text-xs font-medium uppercase tracking-[0.18em] text-accent">Para quem</p><h2 class="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">Para quem é essa consultoria?</h2></div>
+      <ul class="flex flex-col gap-4">
+                <li class="flex items-start gap-4 rounded-2xl border border-border bg-card p-6">
+                  <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="text-lg text-foreground">Empresas que querem gerar mais leads pelo Google</span>
+                </li>
+                <li class="flex items-start gap-4 rounded-2xl border border-border bg-card p-6">
+                  <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="text-lg text-foreground">Negócios que já têm site, mas recebem poucas visitas</span>
+                </li>
+                <li class="flex items-start gap-4 rounded-2xl border border-border bg-card p-6">
+                  <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="text-lg text-foreground">Marcas que desejam aparecer em resultados de IA (GEO)</span>
+                </li>
+                <li class="flex items-start gap-4 rounded-2xl border border-border bg-card p-6">
+                  <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent/10 text-accent">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span class="text-lg text-foreground">Empresas que querem transformar o site em um canal de vendas</span>
+                </li></ul>
+    </div>
+  </div>
+</section>
+<section class="border-t border-border/60">
+  <div class="mx-auto max-w-4xl px-6 py-24 text-center">
+    <h2 class="text-4xl font-semibold tracking-tight sm:text-5xl">Vamos analisar o potencial do seu site?</h2>
+    <p class="mx-auto mt-6 max-w-xl text-muted-foreground">Receba um diagnóstico inicial e descubra quais oportunidades de SEO podem gerar mais tráfego e conversões para sua empresa.</p>
+    <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="mt-10 inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105">Falar sobre meu projeto</a>
+  </div>
+</section>
+
+</main>
+
+  <footer class="border-t border-border/60 bg-background">
+    <div class="mx-auto max-w-6xl px-6 py-14">
+      <div class="grid gap-10 sm:grid-cols-3">
+        <div>
+          <p class="text-lg font-semibold tracking-tight text-foreground">GSG<span class="text-accent">.</span></p>
+          <p class="mt-2 text-sm text-muted-foreground">Tráfego Orgânico Qualificado</p>
+        </div>
+        <div>
+          <p class="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Menu</p>
+          <nav class="mt-4 flex flex-col gap-2 text-sm text-muted-foreground">
+            <a href="index.html" class="transition-colors hover:text-foreground">Home</a>
+            <a href="servicos.html" class="transition-colors hover:text-foreground">Serviços</a>
+            <a href="portfolio.html" class="transition-colors hover:text-foreground">Cases</a>
+            <a href="blog.html" class="transition-colors hover:text-foreground">Blog</a>
+            <a href="sobre.html" class="transition-colors hover:text-foreground">Sobre</a>
+            <a href="contato.html" class="transition-colors hover:text-foreground">Contato</a>
+          </nav>
+        </div>
+        <div>
+          <p class="text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">Contato</p>
+          <nav class="mt-4 flex flex-col gap-2 text-sm text-muted-foreground">
+            <a href="https://web.whatsapp.com/send?phone=5555199976109&text=Ol%C3%A1!%20Tudo%20bem%3F%20Gostaria%20de%20conversar%20sobre%20a%20realiza%C3%A7%C3%A3o%20de%20um%20diagn%C3%B3stico%20gratuito%20do%20meu%20site." target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-foreground">WhatsApp</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-foreground">LinkedIn</a>
+            <a href="mailto:diegomachadodecarvalho@gmail.com" class="transition-colors hover:text-foreground">diegomachadodecarvalho@gmail.com</a>
+          </nav>
+        </div>
+      </div>
+      <div class="mt-12 border-t border-border/60 pt-6 text-sm text-muted-foreground">
+        <p>© 2026 GSG. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
